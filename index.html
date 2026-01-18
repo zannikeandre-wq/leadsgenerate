@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Client Acquisition Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Client Acquisition Platform</h1>
+
+  <section>
+    <h2>Generate New Leads</h2>
+    <input type="text" id="niche" placeholder="Enter niche (e.g., websites)">
+    <button id="generateLeads">Generate Leads</button>
+  </section>
+
+  <section>
+    <h2>Leads</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Company</th>
+          <th>Email</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="leadsTable"></tbody>
+    </table>
+  </section>
+
+<script src="main.js"></script>
+</body>
+</html>
